@@ -1,4 +1,9 @@
 
+
+
+:filetype on
+:autocmd FileType ruby set ts=2 sw=2 expandtab
+
 set number
 set nocompatible
 set nowrap		"Don't wrap lines
@@ -11,6 +16,8 @@ set hlsearch		"Highlight search terms
 set incsearch		"Show search matches as you type
 set nobackup
 set noswapfile
+set list
+set listchars=tab:>-,trail:-,nbsp:%,extends:>,precedes:<
 
 filetype off
 
